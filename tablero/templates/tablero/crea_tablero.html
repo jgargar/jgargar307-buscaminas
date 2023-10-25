@@ -6,11 +6,13 @@
     <title>Bienvenido</title>
 </head>
 <body>
-    <form action="">
-        <label for="fila">Fila: </label><br>
+    <form method='get'>
+        {{ form.as_p }}
+        <!--<label for="fila">Fila: </label><br>
         <input type="number" id="fila" name="fila" /><br/><br/>
         <label for="columna">Columna: </label><br>
         <input type="number" id="columna" name="columna" /><br><br>
+        <input type="submit" value="Crear" />-->
         <input type="submit" value="Crear" />
     </form>
 </body>
